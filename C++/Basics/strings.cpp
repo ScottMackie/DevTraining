@@ -22,7 +22,15 @@ int main()
 
     string3 = string1.append(string2);
 
-    cout << "Using Append(" << string3 << ")" << endl;
+    cout << "Using Append(" << string3 << ")" << endl << endl;
+
+    string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    cout << "The length using .length() of the txt string is: " << txt.length() << endl << endl;    
+
+    cout << "The length using .size() of the txt string is: " << txt.size() << endl << endl;
+
+    cout << "You can access single charater of a string like this:  The 4th letter is " << txt[3] << endl << endl;
+
     
     return 0;
 }
