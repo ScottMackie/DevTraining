@@ -109,4 +109,8 @@ int main()
     cout << "Salary: " << objProg.getSalary() << "  Bonus: " << objProg.bonus << endl;
     cout << "Total Income (inc Bonus): " << objProg.getSalary() + objProg.bonus << endl;
 
+/* CAUSES ERROR HERE HAS EXAMPLE
+    Employee objEmployee;
+    objEmployee.salary = 5000;
+    */
 }

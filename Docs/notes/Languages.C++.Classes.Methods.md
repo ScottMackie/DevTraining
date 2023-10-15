@@ -2,7 +2,7 @@
 id: wzy9ngr3jqz02wcn4a67gj3
 title: Methods
 desc: ''
-updated: 1697286347288
+updated: 1697361482035
 created: 1697282939934
 ---
 
@@ -59,4 +59,4 @@ int Car::speed(int maxSpeed)
 {
     return maxSpeed + (maxSpeed*0.1);
 }
-```
+```  

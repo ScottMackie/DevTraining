@@ -15,7 +15,7 @@ class Animal {
 class Pig : public Animal {
   public:
     void animalSound() {
-      cout << "The pig says: wee wee \n";
+      cout << "The pig says: oink \n";
     }
 };
 
@@ -23,7 +23,7 @@ class Pig : public Animal {
 class Dog : public Animal {
   public:
     void animalSound() {
-      cout << "The dog says: bow wow \n";
+      cout << "The dog says: woof \n";
     }
 };
 
